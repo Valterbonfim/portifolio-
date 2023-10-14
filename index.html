@@ -270,26 +270,31 @@
           </div><!--column left-->
           <div class="column right">
             <div class="text" style="color: #fff;">Mensagem</div>
-            <form action="#">
+            <form action="https://api.staticforms.xyz/submit" method="post">
+              <input type="hidden" name="accessKey" value="cf9b34d2-661d-4d7f-a29d-baa94a7443dd">
+              <input type="hidden" name="redirectTo" value="https://valterbonfim.github.io/portifolio-/">
+
               <div class="fields">
                 <div class="field name">
-                  <input type="text" placeholder="Nome" required>
+                  <input type="text" placeholder="name"  name="name"   required>
                 </div>
                 <div class="field email">
-                  <input type="email" placeholder="Email" required>
+                  <input type="email" placeholder="Email" name="email" required>
                 </div>
               </div>
               <div class="fields">
                 <div class="field">
-                  <input type="text" placeholder="Sobrenome" required>
+                  <input type="text" placeholder="Sobrenome" name="sobrenome" required>
                 </div>
               </div>
               <div class="field textarea">
-                <textarea  cols="30" rows="10" placeholder="Escrever....." required></textarea>
+                <textarea  cols="30" rows="10" placeholder="Mensagem" name="message" required></textarea>
               </div>
               <div class="button">
                 <button type="submit">Enviar</button>
               </div>
+
+              
             </form>
           </div>
           </div>
