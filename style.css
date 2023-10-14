@@ -125,7 +125,7 @@ html{
 /*--Menu Mobile--*/
 .menu-btn{
     color: #fff;
-    font-size: 26px;
+    font-size: 15px;
     cursor: pointer;
     display: none;
 }
@@ -268,11 +268,13 @@ section .title::after{
 .services .title::before,
 .projeto .title::before{
     background: #000705;
+    
 }
 .services .title::after,
 .projeto .title::after{
     background: #fff;
-    content: "Tecnologias Oferecidas";   
+    content: "Tecnologias Oferecidas";  
+    margin: -10px; 
 
 }
 .services .serv-content .card{
@@ -304,7 +306,7 @@ section .title::after{
 }
 .services .serv-content .card .text{
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 100;
     margin: 10px 0 7px 0;
 }
 
@@ -594,19 +596,19 @@ footer span a:hover{
 }
 @media (max-width: 1104px){
     .about .about-content .left img{
-        width: 200px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
     }
 }
 
-@media (max-width: 991px){
+@media (max-width: 500px){
     .navbar .max-width{
         padding: 0 50px;
     }
 }
-@media (max-width: 630px){
+@media (max-width: 359px){
     .max-width{
-        max-width: 800px;
+        max-width: 420px;
         padding: 0 50px;
          }
 
